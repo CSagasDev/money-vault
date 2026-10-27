@@ -9,6 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      pwaAssets: { config: true },
       manifest: {
         name: 'Money Vault',
         short_name: 'MoVault',
